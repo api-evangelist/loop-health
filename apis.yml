@@ -1,8 +1,26 @@
 aid: loop-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loop-health.png
 name: Loop Health
-description: Loop Health is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Loop Health is an India-based health assurance and group insurance company, founded in 2018 by
+  Mayank Kale and Amrit Singh and headquartered in Pune. It combines traditional group hospitalization
+  insurance with unlimited primary care, telemedicine, wellness programs, mental-health counseling, and
+  an Employee Assistance Program, delivered to employers and their teams through asset-light clinics and
+  a member app. Backed by General Catalyst, Elevation Capital and Y Combinator, Loop serves 1,250+
+  companies and 950,000+ members across India. This profile was surfaced as a General Catalyst portfolio
+  company; as of this enrichment pass Loop Health publishes no public developer portal, API documentation,
+  or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/loop-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health Insurance
+- Insurance
+- Healthcare
+- Employee Benefits
+- Health Assurance
+- Telemedicine
+- Insurtech
+- India
 apis: []
+common:
+- type: DomainSecurity
+  url: security/loop-health-domain-security.yml
+- type: Website
+  url: https://www.loophealth.com/
+- type: About
+  url: https://www.loophealth.com/our-story
+- type: Careers
+  url: https://www.loophealth.com/careers
+- type: Blog
+  url: https://www.loophealth.com/blog
+- type: TermsOfService
+  url: https://www.loophealth.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.loophealth.com/legal/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
